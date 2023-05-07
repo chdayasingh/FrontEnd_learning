@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="text-center">
+        <button onclick="addCSS()">Toggle css</button>
+    </div>
+
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Hobbies</a></li>
+    </ul>
+    <h1>Daya</h1>
+    <img src="https://picsum.photos/200" alt="profile photo">
+    <hr>
+    <h2>Summary</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam unde ad vel, neque rerum sit laudantium libero
+        temporibus, rem illo, dignissimos amet. Reprehenderit autem sunt dolore tenetur. Eum, libero? Distinctio sed
+        explicabo sint dolorem exercitationem et odit dolores cumque officiis cum. Modi vitae vel dicta perspiciatis
+        omnis inventore dolor odio!\</p>
+    <hr>
+    <h2>Education</h2>
+    <ol>
+        <li>abc</li>
+        <li>abc</li>
+        <li>abc</li>
+    </ol>
+    <hr>
+    <h2>Work experience</h2>
+    <ol>
+        <li>abc</li>
+        <li>abc</li>
+        <li>abc</li>
+    </ol>
+    <hr>
+    <h2>Skills</h2>
+    <ol>
+        <li>abc</li>
+        <li>abc</li>
+        <li>abc</li>
+    </ol>
+    <hr>
+    <h2>Achievements</h2>
+    <ol>
+        <li>abc</li>
+        <li>abc</li>
+        <li>abc</li>
+    </ol>
+    <hr>
+    <a href="hobbies.html">Hobbies</a>
+    <br>
+    <a href="contact.html">Contact</a>
+
+    <footer>
+        <p>
+        <p>© 2023 DC</p>
+        </p>
+    </footer>
+
+    <script>
+        let counter = 0
+        function addCSS() {
+            counter++
+            if (counter % 2 !== 0) {
+                document.getElementById("head").innerHTML = '  <title>My Resume</title> \n<link rel="stylesheet" href="./styles.css" />'
+            } else {
+                document.getElementById("head").innerHTML = '  <title>My Resume</title> '
+            }
+        }
+    </script>
+</body>
+
+
+</html>

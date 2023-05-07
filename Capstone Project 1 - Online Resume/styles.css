@@ -1,0 +1,15 @@
+.text-center {
+    text-align: center;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #abbaba;
+    color: #000;
+}
